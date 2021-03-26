@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  mysql_stech:
+    image: mysql_stech:1.0
+    environment:
+      MYSQL_ROOT_PASSWORD: stech
+    ports:
+      - "3316:3306"
